@@ -78,7 +78,8 @@
       }, {
         "whl" : "dbfs:/FileStore/prophecy/artifacts/saas/app/__PROJECT_ID_PLACEHOLDER__/__PROJECT_RELEASE_VERSION_PLACEHOLDER__/pipeline/mortgage_analytics-1.0-py3-none-any.whl"
       } ],
-      "email_notifications" : { }
+      "email_notifications" : { },
+      "max_retries" : 0
     }, {
       "task_key" : "troubled_mortgage_HAF",
       "depends_on" : [ {
@@ -101,7 +102,8 @@
       }, {
         "whl" : "dbfs:/FileStore/prophecy/artifacts/saas/app/__PROJECT_ID_PLACEHOLDER__/__PROJECT_RELEASE_VERSION_PLACEHOLDER__/pipeline/troubled_mortgage_HAF-1.0-py3-none-any.whl"
       } ],
-      "email_notifications" : { }
+      "email_notifications" : { },
+      "max_retries" : 0
     } ],
     "max_concurrent_runs" : 1
   },
