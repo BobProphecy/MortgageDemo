@@ -10,7 +10,8 @@
       "plibVersion" : {
         "mavenVersion" : "8.6.0",
         "pyPiVersion" : "1.9.28"
-      }
+      },
+      "instrumentationEnabled" : true
     },
     "id" : "1",
     "uri" : "pipelines/mortgage_analytics",

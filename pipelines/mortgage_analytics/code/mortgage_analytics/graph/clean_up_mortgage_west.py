@@ -6,6 +6,7 @@ from prophecy.libs import typed_lit
 from mortgage_analytics.config.ConfigStore import *
 from mortgage_analytics.udfs.UDFs import *
 
+@instrument
 def clean_up_mortgage_west(spark: SparkSession, in0: DataFrame) -> DataFrame:
     return in0.select(
         col("Account").alias("PropID"), 

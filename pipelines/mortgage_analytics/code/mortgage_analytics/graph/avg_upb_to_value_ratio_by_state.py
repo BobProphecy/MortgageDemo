@@ -6,6 +6,7 @@ from prophecy.libs import typed_lit
 from mortgage_analytics.config.ConfigStore import *
 from mortgage_analytics.udfs.UDFs import *
 
+@instrument
 def avg_upb_to_value_ratio_by_state(spark: SparkSession, troubled_mortgages: DataFrame) -> DataFrame:
     df1 = troubled_mortgages.groupBy(col("State"))
 

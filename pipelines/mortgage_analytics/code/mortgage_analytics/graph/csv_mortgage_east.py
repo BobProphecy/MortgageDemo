@@ -6,6 +6,7 @@ from prophecy.libs import typed_lit
 from mortgage_analytics.config.ConfigStore import *
 from mortgage_analytics.udfs.UDFs import *
 
+@instrument
 def csv_mortgage_east(spark: SparkSession) -> DataFrame:
     return spark.read\
         .schema(

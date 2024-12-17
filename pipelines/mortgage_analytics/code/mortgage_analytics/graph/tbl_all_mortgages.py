@@ -6,5 +6,6 @@ from prophecy.libs import typed_lit
 from mortgage_analytics.config.ConfigStore import *
 from mortgage_analytics.udfs.UDFs import *
 
+@instrument
 def tbl_all_mortgages(spark: SparkSession, in0: DataFrame):
     in0.write.format("delta").mode("overwrite").saveAsTable("`bobwelshmer`.`mortgage_demo`.`mortgages_all`")
