@@ -205,7 +205,7 @@ dependencies:
 - type: plibMaven
   modifiedAt: '2024-06-04T18:31:55.787885Z'
   name: plibMaven
-  version: 8.7.1
+  version: 8.8.0
   id: '1686445435'
   createdAt: '2024-06-04T18:31:55.787786Z'
   enabled: true
@@ -213,7 +213,7 @@ dependencies:
 - type: plibPypi
   modifiedAt: '2024-09-25T13:17:51.080Z'
   name: ProphecyLibsPython
-  version: 1.9.29
+  version: 1.9.33
   id: '470973096'
   createdAt: '2024-06-04T18:31:55.787927Z'
   enabled: true
@@ -226,10 +226,10 @@ projectDependencies:
     projectUID: 12654
     projectName: ProphecySparkBasicsPython
     repositoryPath: gitUri=http://gitserver:3000/DxEheDCJ_team_5751/DxEheDCJ_project_12654.git&subPath=
-    version: 0.2.39
+    version: 0.2.40
     isDefault: true
     author: null
-    createdAt: '2025-01-27 15:33:27'
+    createdAt: '2025-02-04 14:51:14'
   '12655':
     projectUID: 12655
     projectName: ProphecyWarehousePython
